@@ -1,0 +1,4 @@
+**/core.*
+git_token.txt
+.env
+.vscode/
