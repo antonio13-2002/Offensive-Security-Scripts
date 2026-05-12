@@ -1,2 +1,1 @@
-Offensive security scripts
-# Test finale
+# Offensive security scripts
